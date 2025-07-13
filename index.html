@@ -3,7 +3,7 @@
 <html>
     <head>
         <title>Index</title>
-        <meta charset="utf=8">
+        <meta "viewport" content="width=device-width, initial-scale=1.0" charset="utf=8">
     </head>
 
     <body>
@@ -20,7 +20,7 @@
                 body{
                 min-height: 100%;
                 text-align: center;
-                font-size: 45px;
+                font-size: 20px;
                 padding-top: 43px;
                 padding-bottom: 43px;
                 background: linear-gradient(90deg, #003f5b, #2b4b7d, #5f5195, #98509d, #cc4c91, #f25375, #ff6f4e, #ff9913);
@@ -28,22 +28,50 @@
 
                 }
 
-            .avatar-image{
+                .main-container{
+                    max-width: 640px;
+                    margin: auto;
+                }
+
+            .image-row{
+
+                  margin-bottom: 20px;
+
+            }
+                .avatar-image{
                 width: 128px;
                 height: 128px;
                 object-fit: cover;
             }
+            
+              .name-row{
+                  margin-bottom: 30px;
+            }
 
-            .thumbnail{
+            .social-icons-row{
+                margin-bottom: 30px;
+                display: flex;
+                justify-content: space-around;
+            }
+
+              .item{
+                background-color: rgba(11, 20, 56, 0.19);
+                margin-bottom: 25px;
+                display: flex;
+                align-items: center;
+          }
+                .thumbnail{
                 width: 48px;
                 height: 48px;
                 object-fit: cover;
                 border-radius: 48px;
             }
-        
-          .item{
-            background-color: rgba(11, 20, 56, 0.19)
-          }
+
+            .link-text{
+                text-align: center;
+                flex-grow: 1;
+            }
+          
 
        
 
@@ -63,28 +91,29 @@
             <a href="https://www.facebook.com/carter.sanders.92">My Facebook Page </a>
             <a href="https://www.instagram.com/cartersanders306">My Instagram Page</a>
             <a href="https://www.linkedin.com/in/carter-sanders-347516199">My LinkedIn Page</a>
+            <a href="https://github.com/csanders891">My GitHub Page</a>
            </div>
 
            <div class="links-row">
                 <div class="item">
                 <img class="thumbnail" src="thumbnails/jeff-hardyjpg-1.webp"> 
-                <a href="https://www.youtube.com/watch?v=SsaeIBJTqOU">Jeff Hardy Wins WWE Championship</a>
+                <a class="link-text" href="https://www.youtube.com/watch?v=SsaeIBJTqOU">Jeff Hardy Wins WWE Championship</a>
                 </div>
                 
                 <div class="item">
                 <img class="thumbnail" src="thumbnails/tv-tropes-logo-white-big.png"> 
-                <a href="https://www.tvtropes.org">TV Tropes</a>
+                <a class="link-text" href="https://www.tvtropes.org">TV Tropes</a>
                 </div>
 
                 <div class="item"> 
                 <img class="thumbnail" src="thumbnails/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-637x637-1.jpg"> 
-                <a href="https://en.wikipedia.org/wiki/Chocolate_chip_cookie">History of the Chocolate Chip Cookie</a>
+                <a class="link-text" href="https://en.wikipedia.org/wiki/Chocolate_chip_cookie">History of the Chocolate Chip Cookie</a>
                 </div>
 
                 <div class="item">
-                <img class="thumbnail" src="thumbnails/funtrivia_stacked.webp">  <a href="https://www.funtrivia.com/">FunTrivia.com</a>
+                <img class="thumbnail" src="thumbnails/funtrivia_stacked.webp">  
+                <a class="link-text" href="https://www.funtrivia.com/">FunTrivia.com</a>
                 </div>
-          
             </div>
          </div>
     </body>
