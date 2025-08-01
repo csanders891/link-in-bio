@@ -1,6 +1,6 @@
 # static-html-template
 
-Carter's link-in bio
+<p style="color: pink">Carter's link-in bio</p>
 
 A standard link-in bio with various css styling features, links to my social media accounts and links to different websites
 
